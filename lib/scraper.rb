@@ -10,7 +10,7 @@ class Scraper
      doc.css("div.roster-cards-container").each do |student_card|
        doc.css("div.student-card").each do |card|
          student = Student.new
-         student.name = student.css()
+         student.name = card.css("h4").text
          student.location
          student.profile_url
        end
