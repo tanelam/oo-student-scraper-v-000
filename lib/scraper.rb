@@ -9,9 +9,9 @@ class Scraper
      #binding.pry
      doc.css("div.roster-cards-container").each do |student_card|
        doc.css("div.student-card").each do |card|
-         student_name = card.css(.student-name).text
-         student_location = 
-         student_profile_url
+         student_name = card.css("h4").text
+         student_location = card.css("p").text
+         student_profile_url = card.css("./fixtures/student-site/#{student.attr('href')}")
        end
      end
   end
