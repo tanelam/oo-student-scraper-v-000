@@ -14,9 +14,9 @@ class Scraper
   end
 
   def self.scrape_profile_page(profile_url)
-  
+
   end
 
 end
 
-Scraper.scrape_index_page("http://67.205.165.109:44187/fixtures/student-site/")
+# Scraper.scrape_index_page("http://67.205.165.109:44187/fixtures/student-site/")
