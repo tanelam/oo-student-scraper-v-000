@@ -22,8 +22,10 @@ class Scraper
 
   end
 
-  def self.scrape_profile_page(profile_url)
-
-  end
+  # def self.scrape_profile_page(profile_url)
+  # 
+  # end
 
 end
+
+Scraper.new.scrape_index_page("http://learn-co-curriculum.github.io/site-for-scraping/courses")
