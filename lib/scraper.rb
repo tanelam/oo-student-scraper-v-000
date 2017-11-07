@@ -13,7 +13,7 @@ class Scraper
          student_location = card.css(".student-location").text
          student_profile_url = "#{card.attr('href')}"
          students << {name: student_name, location: student_location, profile: student_profile_url}
-       end
+      #  end
      end
   end
 
