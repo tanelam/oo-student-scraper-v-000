@@ -9,7 +9,7 @@ class Scraper
      #binding.pry
      doc.css("div.roster-cards-container").each do |student_card|
        doc.css("div.student-card").each do |student|
-
+         
        end
      end
   end
