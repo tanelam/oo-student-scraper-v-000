@@ -21,12 +21,11 @@ class Scraper
   def self.scrape_profile_page(profile_url)
     doc = Nokogiri::HTML(open(profile_url))
     student = {}
-
-    
+      
+      
 
     student
   end
 
 end
 
-# Scraper.scrape_index_page("http://67.205.165.109:44187/fixtures/student-site/")
