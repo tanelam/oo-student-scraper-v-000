@@ -4,8 +4,8 @@ require 'nokogiri'
 
 class Scraper
 
-  def self.scrape_index_page(index_url)
-     doc = Nokogiri::HTML(open(index_url))
+  def self.scrape_index_page
+     doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
 binding.pry
     #  students = doc.css("div.roster-cards-container").text
     #  student_card = doc.css (".student-card").text
@@ -29,3 +29,4 @@ binding.pry
 end
 
 # Scraper.new.scrape_index_page("http://learn-co-curriculum.github.io/site-for-scraping/courses")
+Scraper.new.scrape_index_page
