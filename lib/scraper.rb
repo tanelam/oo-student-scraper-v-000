@@ -28,4 +28,4 @@ binding.pry
 
 end
 
-Scraper.scrape_index_page("http://learn-co-curriculum.github.io/site-for-scraping/courses")
+Scraper.scrape_index_page("http://students.learn.co/")
