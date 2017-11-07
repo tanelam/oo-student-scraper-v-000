@@ -28,4 +28,4 @@ binding.pry
 
 end
 
-Scraper.scrape_index_page("http://students.learn.co/")
+Scraper.scrape_index_page("http://67.205.165.109:44187/fixtures/student-site/")
